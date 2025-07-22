@@ -16,7 +16,7 @@
    # code --install-extension myextension.vsix
    Required extensions - mhutchie.git-graph, github.vscode-github-actions, salesforce-extension-pack
 3. Authenticate with sfdx project > authorize with an org > verify code manifest file > retrive source code.
-4. Push the code to GitHub (git add . ; git commit -m "test xyz" ; git push -u origin master) 
-5. Updates will be seen in the relevant project in Jira.
+4. Authenticate with GitHub and push the code to GitHub (git add . ; git commit -m "test xyz" ; git push -u origin master) 
+5. Updates will be seen in the relevant project in Jira thanks to GitHub Pipeline/Actions.
 
 
