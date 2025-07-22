@@ -11,6 +11,12 @@
 <img width="618" height="93" alt="image" src="https://github.com/user-attachments/assets/1b16de1e-4a55-4b72-9a03-5e59f9970a53" />
 
 ## Setting Up IDE
-
+1. Install the IDE - https://code.visualstudio.com/download
+2. Install Required Extensions: 
+   # code --install-extension myextension.vsix
+   Required extensions - mhutchie.git-graph, github.vscode-github-actions, salesforce-extension-pack
+3. Authenticate with sfdx project > authorize with an org > verify code manifest file > retrive source code.
+4. Push the code to GitHub (git add . ; git commit -m "test xyz" ; git push -u origin master) 
+5. Updates will be seen in the relevant project in Jira.
 
 
