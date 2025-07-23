@@ -26,3 +26,10 @@
 * For Linux - download the tar file in /opt directory.
 * Extract and update the path by adding the bin directory into .bashrc file.
 
+## Creating a SF Project
+* control + shift + p then create project with manifest
+* authorize with org
+* retrive source from package.xml (pull metadata from code): sfdx force:source:retrieve -manifest path/packge.xml
+* test using sfdx force:apex:test:run --tests etc. etc.
+* push the code (soruce to org) 
+
