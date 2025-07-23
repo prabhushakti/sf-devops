@@ -19,6 +19,5 @@
 4. Authenticate with GitHub and push the code to GitHub (git add . ; git commit -m "test xyz" ; git push -u origin master) 
 5. Updates will be seen in the relevant project in Jira thanks to GitHub Pipeline/Actions.
 
-##W
 
 
