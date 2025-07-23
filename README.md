@@ -13,7 +13,7 @@
 ## Setting Up IDE
 1. Install the IDE - https://code.visualstudio.com/download
 2. Install Required Extensions: 
-   # code --install-extension myextension.vsix
+   #code --install-extension myextension.vsix
    Required extensions - mhutchie.git-graph, github.vscode-github-actions, salesforce-extension-pack, jira
 3. Authenticate with sfdx project > authorize with an org > verify code manifest file > retrive source code.
 4. Authenticate with GitHub and push the code to GitHub (git add . ; git commit -m "test xyz" ; git push -u origin master) 
