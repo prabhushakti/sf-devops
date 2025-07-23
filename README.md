@@ -19,5 +19,10 @@
 4. Authenticate with GitHub and push the code to GitHub (git add . ; git commit -m "test xyz" ; git push -u origin master) 
 5. Updates will be seen in the relevant project in Jira thanks to GitHub Pipeline/Actions.
 
+## Jira Configuration
+* Ensure GitHub plugins are installed: Git Integration for Jira.
 
+## Installing SF Command
+* For Linux - download the tar file in /opt directory.
+* Extract and update the path by adding the bin directory into .bashrc file.
 
