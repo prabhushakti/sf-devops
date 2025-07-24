@@ -30,7 +30,12 @@
 
 ## Creating a SF Project
 * control + shift + p then create project with manifest
-* authorize with org
+* Authorize with salesforce; create a scratch org
+* Login comomand to a test org ``` $ sf org:login:web --alias testScratchOrg --set-default-dev-hub``` (or use Agentforce extensions)
+* Create scratch org using definition file ```sf org create scratch --edition developer --alias my-scratch-org```
+* View the org: ```sf org list auth```
+
+
 * retrive source from package.xml (pull metadata from code): sfdx force:source:retrieve -manifest path/packge.xml
 * test using sfdx force:apex:test:run --tests etc. etc.
 * push the code (soruce to org) 
