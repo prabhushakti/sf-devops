@@ -3,8 +3,8 @@
 <strong>This repository uses TDD principles to automate deployments in salesforce software development.</strong>
 <strong> Use GitHub as SVC and CI/CD. </strong>
 
-[![Click to Watch]((https://www.gitkraken.com/wp-content/uploads/2022/06/Using-Jira-and-GitHub_Hero-2048x1024.jpg.webp))](https://vimeo.com/1103750436)
-[![Current Progress Video](https://www.gitkraken.com/wp-content/uploads/2022/06/Using-Jira-and-GitHub_Hero-2048x1024.jpg.webp)](https://vimeo.com/1103750436) 
+
+[![Current Progress Video](https://github.com/user-attachments/assets/34773a7d-a4ad-4a4c-acb7-d9e659dda52d)](https://vimeo.com/1103750436) 
 
 
 
