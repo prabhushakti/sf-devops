@@ -38,5 +38,10 @@
 
 * retrive source from package.xml (pull metadata from code): sfdx force:source:retrieve -manifest path/packge.xml
 * test using sfdx force:apex:test:run --tests etc. etc.
-* push the code (soruce to org) 
+* push the code (soruce to org)
+
+## Bugs in SF CLI
+* Linux users might need to export DNS check to untrue.
+* If domain show disconnected use a different api.
+* To push the project to an org, change api key to a diffenent value.
 
