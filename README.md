@@ -22,7 +22,9 @@
 5. Updates will be seen in the relevant project in Jira thanks to GitHub Pipeline/Actions.
 
 ## Jira Configuration
-* Ensure GitHub plugins are installed: Git Integration for Jira.
+* Ensure GitHub plugins are installed: Git Integration for Jira by Atlassian. Detailed steps: https://support.atlassian.com/jira-cloud-administration/docs/integrate-with-github/
+* For Jira to track work items - the work item keys must be included when raising PRs(title), commits, and branch name (case-sensitive). Here's how - [https://support.atlassian.com/jira-cloud-administration/docs/integrate-with-github/](https://support.atlassian.com/jira-software-cloud/docs/reference-issues-in-your-development-work/)
+* 
 
 ## Installing SF Command
 * For Linux - download the tar file in /opt directory.
