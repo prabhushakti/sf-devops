@@ -40,3 +40,5 @@
 * test using sfdx force:apex:test:run --tests etc. etc.
 * push the code (soruce to org) 
 
+## Bugs
+* In Linux you might face issues related to DNS and API versioning.
