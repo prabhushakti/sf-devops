@@ -45,3 +45,5 @@
 * If domain show disconnected use a different api.
 * To push the project to an org, change api key to a diffenent value.
 
+## Bugs
+* In Linux you might face issues related to DNS and API versioning.
