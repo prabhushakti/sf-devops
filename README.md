@@ -4,11 +4,13 @@
 <strong> Use GitHub as SVC and CI/CD. </strong>
 
 
+[![Current Progress Video](https://github.com/user-attachments/assets/34773a7d-a4ad-4a4c-acb7-d9e659dda52d)](https://vimeo.com/1103750436) 
 
-<img title=TDD width="1600" height="1372" alt="tdd" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfWH8Xb0XRfEI5CVzWaPDxzzGsGHght78Lg-tiJcKpXbiE27yTQeWAwZv2oUgHJGXnViHQ13V5r2n9dN68c2zuuGcJwZ5jjijzXPF_zZ7N0w3J_oV4niqZn8PtQEWQxtqlJyIVr60VEiQEtRLSZPIKCP4T1?key=EKZ6QLmJveNRS_xcgynU5g" />
+
 
 ## Deployment Model
 <img width="618" height="93" alt="image" src="https://github.com/user-attachments/assets/1b16de1e-4a55-4b72-9a03-5e59f9970a53" />
+<img title=TDD width="1600" height="1372" alt="tdd" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfWH8Xb0XRfEI5CVzWaPDxzzGsGHght78Lg-tiJcKpXbiE27yTQeWAwZv2oUgHJGXnViHQ13V5r2n9dN68c2zuuGcJwZ5jjijzXPF_zZ7N0w3J_oV4niqZn8PtQEWQxtqlJyIVr60VEiQEtRLSZPIKCP4T1?key=EKZ6QLmJveNRS_xcgynU5g" />
 
 ## Setting Up IDE
 1. Install the IDE - https://code.visualstudio.com/download
@@ -28,7 +30,12 @@
 
 ## Creating a SF Project
 * control + shift + p then create project with manifest
-* authorize with org
+* Authorize with salesforce; create a scratch org
+* Login comomand to a test org ``` $ sf org:login:web --alias testScratchOrg --set-default-dev-hub``` (or use Agentforce extensions)
+* Create scratch org using definition file ```sf org create scratch --edition developer --alias my-scratch-org```
+* View the org: ```sf org list auth```
+
+
 * retrive source from package.xml (pull metadata from code): sfdx force:source:retrieve -manifest path/packge.xml
 * test using sfdx force:apex:test:run --tests etc. etc.
 * push the code (soruce to org) 
