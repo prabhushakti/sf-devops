@@ -27,4 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: list files
-        run: ls
+        run: sf org login jwt --username  prabhu694@agentforce.com  --client-id 3MVG9rZjd7MXFdLhg3Su9yqqVTMdC6SEgSb1ZtnAne0vJOcsQBLqHRTJJdo01mog_l7_v4k2_jqetRM.icpPa --jwt-key-file  salesforce.key --instance-url https://login.salesforce.com
+
