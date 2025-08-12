@@ -25,3 +25,5 @@ replay_pid*
 
 # let's ignore test-project
 test-project/
+
+*.sfdx/*
